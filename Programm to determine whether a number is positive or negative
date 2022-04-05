@@ -1,0 +1,12 @@
+// programm to check whether a number is positive or negative
+#include <stdio.h>
+int main(){
+    double number;
+    printf("enter your number:");
+    scanf("%lf",&number);
+    if(number>= 0)
+    printf("number is positive",number);
+    else("number is negative",number);
+    return 0;
+    
+}
