@@ -1,0 +1,12 @@
+// programm to demonstrate arithmetic operations
+#include <stdio.h>
+int main(){
+    int a,b,c;
+    printf("enter your number:");
+    scanf("%d",&a);
+    if(a=1000)
+    b=a*10+5;
+    c=b/5;
+    printf("%d",c);
+    return 0;
+}
