@@ -1,0 +1,19 @@
+// programm to check eligibility of a voter
+#include <stdio.h>
+
+int main() {
+    int a; 
+    printf("enter age: ");
+    scanf("%d" ,&a);
+    if (a >=18)
+    printf("you can vote");
+    else
+    printf("you cant vote");
+    printf("\n enter nationality: ");
+    scanf("%d" ,&a);
+    if (a == +254)
+    printf("you can vote");
+    else
+    printf("you cant vote");
+    return 0;
+}
