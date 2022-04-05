@@ -1,0 +1,16 @@
+// progamm to find discount on purchase
+#include <stdio.h>
+
+int main() {
+		double amount,discount;
+		printf("Enter Amount:");
+	scanf("%lf ", &amount);
+	if(amount>1000)
+	{
+		discount=amount*0.10;
+		amount=amount-discount;
+	}
+	printf("%lf",amount);
+	
+	return 0;
+}
