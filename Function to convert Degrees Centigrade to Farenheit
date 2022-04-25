@@ -1,0 +1,16 @@
+//function to convert degree centigrade to fahrenheits
+#include <stdio.h>
+float function(float var);
+int main(){
+    float temp,Output;
+  printf("Please enter the temperature in centigrade: ");
+  scanf("%f",&temp);
+  Output =  function(temp);
+  printf("%.1f,centigrade is %.1f fahrenheits", temp,Output);
+    return 0;
+}
+ float function(float var){
+ float Farenheit;
+Farenheit= (9/5) * var + 32;
+     return Farenheit;
+ }
